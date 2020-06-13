@@ -1,0 +1,49 @@
+.contact_card {
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+  0 3px 1px -2px rgba(0,0,0,0.12),
+  0 1px 5px 0 rgba(0,0,0,0.2);
+  width: 50%;
+}
+
+.delete_icon {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: red
+}
+
+.edit_icon {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  color: blue
+}
+
+.view_more_details {
+  color: #007bff !important;
+  font-size: 13px;
+  cursor: pointer;
+  width: fit-content;
+  position: absolute;
+  right: 24px;
+  height: 10px;
+  bottom: 15px;
+}
+
+.view_more_icon {
+  width: 10px;
+  transition: all 1s;
+  position: relative;
+  top: -18px;
+  right: -67px;
+  height: 10px;
+}
+
+.view_more_icon.active {
+  transform: rotate(-180deg);
+  transform-origin: center center;
+  transition: all 1s;
+  top: -9px;
+  right: -60px;
+}
